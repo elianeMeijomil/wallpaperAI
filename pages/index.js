@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Tests</title>
+        <title>Imagens pelo OpenAI - Eliane Meijomil</title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
