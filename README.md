@@ -11,11 +11,12 @@ Usando o repositório de Quickstart do tutorial fornecido pelo openai como base 
 
 O repositório base usado para este projeto foi o **openai-quickstart-node** 
 
-```bash
-$ git clone https://github.com/openai/openai-quickstart-node.git
-```
+    ```bash
+    $ git clone https://github.com/openai/openai-quickstart-node.git
+    ```
 
 ## Setup
+
 1. Se você não possui Node.js instalado, [Instale ele daqui](https://nodejs.org/en/)
 
 2. Clone este repositório
