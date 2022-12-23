@@ -1,0 +1,32 @@
+{
+  "name": "wallpaperai",
+  "version": "1.0.0",
+  "description": "Projetinho em node.js para consumir o serviço de openai para gerar um site de walpapers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianeMeijomil/wallpaperAI.git"
+  },
+  "keywords": [
+    "openai",
+    "wallpaper",
+    "node.js",
+    "next.js",
+    "react"
+  ],
+  "author": "Eliane Meijomil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianeMeijomil/wallpaperAI/issues"
+  },
+  "homepage": "https://github.com/elianeMeijomil/wallpaperAI#readme",
+  "dependencies": {
+    "next": "^13.1.0",
+    "openai": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
