@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image"
 import { useState } from "react";
 import styles from "./index.module.css";
 
@@ -15,6 +16,7 @@ export default function Home() {
     console.log('chamando imagem');
     console.log('image: '+imageInput);
     console.log('image size: '+sizeInput)
+    const dimentions = sizeInput.split('x');
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
@@ -25,7 +27,12 @@ export default function Home() {
     const data = await response.json();
     const imageURL = data.result[0].url;
     const imagemGerada = (
-        <img src={imageURL} className="petImg"/>
+        <Image 
+          src={imageURL} 
+          className="petImg" 
+          height={dimentions[0]} 
+          width={dimentions[1]}
+          />
         );
     
     setResult(imagemGerada);
